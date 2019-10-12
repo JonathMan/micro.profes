@@ -1,5 +1,9 @@
 package com.micro.u.repository;
 
-public class ProfesRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.micro.u.entity.Profes;
+
+public interface ProfesRepository extends JpaRepository<Profes, Long>{
 
 }
